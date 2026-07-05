@@ -1,8 +1,8 @@
-FROM node:alpine3.22
+FROM node:alpine3.20
 
 WORKDIR /tmp
 
-COPY index.js index.html package.json ./
+COPY . .
 
 EXPOSE 3000/tcp
 
